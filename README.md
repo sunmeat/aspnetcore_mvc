@@ -1,4 +1,4 @@
-# ASP.NET Core MVC 1
+# ASP.NET Core MVC
 
 **Автор:** sunmeat  
 **Мова проєкту:** C#  
@@ -26,36 +26,3 @@
 - C# 14
 - Razor Views
 - Entity Framework Core
-
-## Структура проєкту
-aspnetcoremvc1/
-├── Controllers/          # Контролери
-│   └── HomeController.cs
-├── Models/               # Моделі та ViewModel'и
-│   └── ErrorViewModel.cs
-├── Views/                # Razor-вигляди
-│   ├── Home/
-│   │   └── Index.cshtml
-│   ├── Shared/
-│   │   ├── _Layout.cshtml
-│   │   └── _ValidationScriptsPartial.cshtml
-│   └── _ViewImports.cshtml
-│   └── _ViewStart.cshtml
-├── wwwroot/              # Статичні файли (CSS, JS, зображення)
-│   ├── css/
-│   ├── js/
-│   └── lib/
-├── Properties/
-│   └── launchSettings.json
-├── appsettings.json
-├── appsettings.Development.json
-├── Program.cs            # Точка входу (починаючи з .NET 6)
-├── aspnetcoremvc1.csproj
-└── README.md             # ← цей файл
-
-### Необхідне ПЗ
-- .NET SDK (рекомендовано 8.0 або новіше) → https://dotnet.microsoft.com/download
-- Visual Studio 2022/2025 або VS Code + C# Dev Kit
-
-Удачі у розробці!
-Якщо маєте питання – пишіть в Issues репозиторію або автору.
