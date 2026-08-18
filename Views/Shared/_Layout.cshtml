@@ -50,6 +50,6 @@
     </div> <!-- питання: а як ми сюди потрапили? відповідь: дивимось _ViewStart.cshtml -->
 
     <script src="~/lib/jquery/dist/jquery.js"></script>
-
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
